@@ -7,6 +7,7 @@ body {
   background-image: url(/bg-desktop.9b467f57.svg);
   background-color: #674baf;
   margin-left: 70px;
+  margin-right: 70px;
 }
 body header {
   width: 100%;
@@ -27,14 +28,33 @@ body main {
   display: flex;
   flex-direction: row;
 }
+body main #layoutPhoto {
+  margin-right: 20px;
+  width: 100%;
+}
 body main #layoutPhoto img {
   width: 721px;
   height: 498px;
 }
+body main #text {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+}
 body main #text h2 {
   color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+body main #text p {
+  color: white;
+  font-family: Open Sans;
+  letter-spacing: 1px;
 }
 body footer {
+  display: flex;
   border: 3px solid red;
 }
 
