@@ -63,7 +63,9 @@ body footer {
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  border: 3px solid red;
+}
+body footer div {
+  margin-left: 13px;
 }
 body footer div a {
   text-decoration: none;
@@ -71,7 +73,7 @@ body footer div a {
 }
 body footer div a span {
   font-size: 14px;
-  border: 1px solid red;
+  border: 1px solid white;
   border-radius: 50%;
   padding: 8px;
 }
