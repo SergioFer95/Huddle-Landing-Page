@@ -26,12 +26,13 @@ body main {
   flex-direction: row;
 }
 body main #layoutPhoto {
-  margin-right: 20px;
+  margin-right: 40px;
+  margin-top: 12px;
   width: 63%;
 }
 body main #layoutPhoto img {
   width: 721px;
-  height: 498px;
+  height: 513px;
 }
 body main #text {
   width: 100%;
@@ -59,21 +60,24 @@ body main #text .paragraph p {
 }
 body main #text button {
   width: 200px;
+  height: 57px;
   margin-top: 20px;
   font-family: Poppins;
+  font-size: 15px;
   border: 2px solid white;
   color: #674baf;
-  border-end-end-radius: 500px 800px;
-  border-top-right-radius: 200px, 200px;
-  border-top-left-radius: 500px 800px;
-  border-end-end-radius: 500px 800px;
-  border-end-start-radius: 500px 800px;
+  border-end-end-radius: 968px 1000px;
+  border-top-right-radius: 968px 1000px;
+  border-top-left-radius: 968px 1000px;
+  border-end-start-radius: 968px 1000px;
+  border-start-end-radius: 968px 1000px;
   background-color: #FFFF;
   padding: 10px;
 }
 body main #text button:hover {
   background-color: #E980E7;
-  border: 2px solid #FF52C2;
+  border: 0px solid #FF52C2;
+  color: white;
 }
 body footer {
   width: 100%;
