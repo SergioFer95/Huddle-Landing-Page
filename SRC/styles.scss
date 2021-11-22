@@ -51,6 +51,7 @@ body{
                     font-family: Poppins;
                     font-size:40px;
                     letter-spacing:1px;
+                    margin-top: 40px;
                     margin-bottom:20px;
                 }
             }
@@ -64,6 +65,26 @@ body{
                     letter-spacing: 1px;
                 }
 
+            }
+
+            button{
+                width: 200px;
+                margin-top: 20px;
+                font-family: Poppins;
+                border: 2px solid white;
+                color: hsl(257, 40%, 49%);
+                border-end-end-radius: 500px 800px;
+                border-top-right-radius: 200px, 200px;
+                border-top-left-radius:500px 800px ;
+                border-end-end-radius: 500px 800px;
+                border-end-start-radius: 500px 800px;
+                background-color: #FFFF;
+                padding: 10px;
+
+                &:hover{
+                    background-color:#E980E7;
+                    border: 2px solid #FF52C2;
+                }
             }
         }
     }
@@ -83,6 +104,10 @@ body{
             a{
                 text-decoration: none;
                 color: white;
+
+                &:hover{
+                    color: #FF52C2;
+                }
                 
                 
                 span{
@@ -90,6 +115,10 @@ body{
                     border: 1px solid white;
                     border-radius: 50%;
                     padding: 8px;
+
+                    &:hover{
+                        border: 1px solid #FF52C2;
+                    }
                 }
             }
         }
