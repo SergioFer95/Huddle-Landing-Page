@@ -33,7 +33,7 @@ body{
 
         #layoutPhoto{
             margin-right: 20px;
-            width:100%;
+            width:63%;
 
             img{
                 width: 721px;
@@ -42,22 +42,32 @@ body{
         }
 
         #text{
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            height: 348px;
             border: 2px solid blue;
 
-            h2{
-                color: white;
-                font-family: Poppins;
-                font-size:20px;
-                letter-spacing:1px;
-                margin-bottom:20px;
+            .heading{
+                width: 456px;
+                height: 137px;
+
+                h2{
+                    color: white;
+                    font-family: Poppins;
+                    font-size:40px;
+                    letter-spacing:1px;
+                    margin-bottom:20px;
+                }
             }
 
-            p{
-                color:white;
-                font-family:Open Sans;
-                letter-spacing: 1px;
+            .paragraph{
+                width: 510px;
+
+                p{
+                    color: white;
+                    font-family: Open Sans;
+                    letter-spacing: 1px;
+                }
+
             }
         }
     }

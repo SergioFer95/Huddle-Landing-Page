@@ -30,25 +30,32 @@ body main {
 }
 body main #layoutPhoto {
   margin-right: 20px;
-  width: 100%;
+  width: 63%;
 }
 body main #layoutPhoto img {
   width: 721px;
   height: 498px;
 }
 body main #text {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 348px;
   border: 2px solid blue;
 }
-body main #text h2 {
+body main #text .heading {
+  width: 456px;
+  height: 137px;
+}
+body main #text .heading h2 {
   color: white;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 40px;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-body main #text p {
+body main #text .paragraph {
+  width: 510px;
+}
+body main #text .paragraph p {
   color: white;
   font-family: Open Sans;
   letter-spacing: 1px;
