@@ -36,7 +36,10 @@ body main {
 }
 
 body main #layoutPhoto {
-  margin-right: 40px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-right: 12px;
   margin-top: 12px;
   width: 63%;
 }
@@ -47,7 +50,11 @@ body main #layoutPhoto img {
 }
 
 body main #text {
-  width: 100%;
+  /* border: 1px solid red; */
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 503px;
   height: 348px;
 }
 

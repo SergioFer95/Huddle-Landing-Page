@@ -31,9 +31,11 @@ body{
         display: flex;
         flex-direction: row;
         
+        
 
         #layoutPhoto{
-            margin-right: 40px;
+            order: 2;
+            margin-right: 12px;
             margin-top: 12px;
             width:63%;
 
@@ -44,7 +46,9 @@ body{
         }
 
         #text{
-            width: 100%;
+            /* border: 1px solid red; */
+            order: 2;
+            width: 503px;
             height: 348px;
 
             .heading{
