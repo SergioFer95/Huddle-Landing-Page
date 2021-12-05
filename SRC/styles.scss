@@ -1,6 +1,17 @@
 /* // SCSS Variables */
 $layout_bp_mobile: 375px;
 
+$breakpoints: (
+    sm: 375px;
+    lg: 1440
+);
+
+@mixin viewport ($breakpoint){
+    @media screen and (min-width: map-get ($breakpoints, $breakpoint)){
+        @content
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +41,8 @@ body{
 
         display: flex;
         flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
         
         
 
@@ -96,6 +109,7 @@ body{
                     background-color:#E980E7;
                     border: 0px solid #FF52C2;
                     color: white;
+                    cursor: pointer;
                 }
             }
         }
@@ -107,8 +121,10 @@ body{
         height: 88px;
         display: flex;
         flex-direction: row;
+        /* flex-wrap: wrap; */
         justify-content: right;
         align-items: center;
+        bottom: 0;
 
         div{
             margin-left: 13px;
@@ -139,18 +155,8 @@ body{
 }
 
 
-/* @mixin mobile {
-    @media screen and (max-width: 375px){
-        main{
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-
-        footer{
-            bottom: 0;
-            justify-content:center;
-            position: fixed;
-        }
-        @content;
-    }
-} */
+@mixin viewport($layout_bp_mobile){
+ @media ($layout_bp_mobile){
+     
+ }
+}
